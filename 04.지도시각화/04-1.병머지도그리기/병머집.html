@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c4245633ef214a19acc9dbbbdaad2866 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    <h3 align="center" style="font-size:20px">병머 하우스</h3>
+    
+            <div class="folium-map" id="map_c4245633ef214a19acc9dbbbdaad2866" ></div>
+        
+</body>
+<script>    
+    
+            var map_c4245633ef214a19acc9dbbbdaad2866 = L.map(
+                "map_c4245633ef214a19acc9dbbbdaad2866",
+                {
+                    center: [35.19239111722524, 129.10294602002534],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5867b9e5fcf3449f9aafec4de199e4c1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+            var marker_c33d349da07d49da9ca4d18df7b5b0b3 = L.marker(
+                [35.1840917874952, 129.104619815874],
+                {}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+        var popup_d8052095ef6c4f0d83b9cb502c029d3b = L.popup({"maxWidth": 200});
+
+        
+            var html_b301f3e3ec7341fa9d5147dbf8ca1b5a = $(`<div id="html_b301f3e3ec7341fa9d5147dbf8ca1b5a" style="width: 100.0%; height: 100.0%;">부산광역시 연제구 고분로 200(연산동, 연산엘지아파트)</div>`)[0];
+            popup_d8052095ef6c4f0d83b9cb502c029d3b.setContent(html_b301f3e3ec7341fa9d5147dbf8ca1b5a);
+        
+
+        marker_c33d349da07d49da9ca4d18df7b5b0b3.bindPopup(popup_d8052095ef6c4f0d83b9cb502c029d3b)
+        ;
+
+        
+    
+    
+            marker_c33d349da07d49da9ca4d18df7b5b0b3.bindTooltip(
+                `<div>
+                     이소의
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfe0d33156774e20a7675b8bfc548fd8 = L.marker(
+                [35.1800348348795, 129.107804009392],
+                {}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+        var popup_e0f0e0ee915e4e819fc378cd1afbe797 = L.popup({"maxWidth": 200});
+
+        
+            var html_90670ea325214dde8f68f1c501c3287d = $(`<div id="html_90670ea325214dde8f68f1c501c3287d" style="width: 100.0%; height: 100.0%;">부산광역시 연제구 토현로 6(연산동)</div>`)[0];
+            popup_e0f0e0ee915e4e819fc378cd1afbe797.setContent(html_90670ea325214dde8f68f1c501c3287d);
+        
+
+        marker_dfe0d33156774e20a7675b8bfc548fd8.bindPopup(popup_e0f0e0ee915e4e819fc378cd1afbe797)
+        ;
+
+        
+    
+    
+            marker_dfe0d33156774e20a7675b8bfc548fd8.bindTooltip(
+                `<div>
+                     노명희
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4522f50566274654bcd6a28b25e10323 = L.marker(
+                [35.1822298170439, 129.104511753661],
+                {}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+        var popup_9af00941eb984684965f9a1c3f12d988 = L.popup({"maxWidth": 200});
+
+        
+            var html_54eb34eb19bd4a7cbc0838a4a36d1c85 = $(`<div id="html_54eb34eb19bd4a7cbc0838a4a36d1c85" style="width: 100.0%; height: 100.0%;">부산광역시 연제구 토곡로 26(연산동)</div>`)[0];
+            popup_9af00941eb984684965f9a1c3f12d988.setContent(html_54eb34eb19bd4a7cbc0838a4a36d1c85);
+        
+
+        marker_4522f50566274654bcd6a28b25e10323.bindPopup(popup_9af00941eb984684965f9a1c3f12d988)
+        ;
+
+        
+    
+    
+            marker_4522f50566274654bcd6a28b25e10323.bindTooltip(
+                `<div>
+                     김연지
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87cdce37677d4c2e8b0c0a3e248aee59 = L.marker(
+                [35.1785656351378, 129.101171196941],
+                {}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+        var popup_6e4088b03e8746db989326457ea39f8a = L.popup({"maxWidth": 200});
+
+        
+            var html_ae9ab01ac76540dfb0bedc52235a4acc = $(`<div id="html_ae9ab01ac76540dfb0bedc52235a4acc" style="width: 100.0%; height: 100.0%;">부산광역시 수영구 망미배산로48번길 85-23(망미동)</div>`)[0];
+            popup_6e4088b03e8746db989326457ea39f8a.setContent(html_ae9ab01ac76540dfb0bedc52235a4acc);
+        
+
+        marker_87cdce37677d4c2e8b0c0a3e248aee59.bindPopup(popup_6e4088b03e8746db989326457ea39f8a)
+        ;
+
+        
+    
+    
+            marker_87cdce37677d4c2e8b0c0a3e248aee59.bindTooltip(
+                `<div>
+                     진주현
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_598c4690a989443da8c6a3b3bfbf9be7 = L.marker(
+                [35.2064422850803, 129.096549496864],
+                {}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+        var popup_90c81125347c48cc93484c3fead08d94 = L.popup({"maxWidth": 200});
+
+        
+            var html_8806ec1eba0a45bfb75cc4a54da4a236 = $(`<div id="html_8806ec1eba0a45bfb75cc4a54da4a236" style="width: 100.0%; height: 100.0%;">부산광역시 동래구 충렬사로51번길 62(명장동)</div>`)[0];
+            popup_90c81125347c48cc93484c3fead08d94.setContent(html_8806ec1eba0a45bfb75cc4a54da4a236);
+        
+
+        marker_598c4690a989443da8c6a3b3bfbf9be7.bindPopup(popup_90c81125347c48cc93484c3fead08d94)
+        ;
+
+        
+    
+    
+            marker_598c4690a989443da8c6a3b3bfbf9be7.bindTooltip(
+                `<div>
+                     이지인
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b39a1f5dd184b829a694493d34be616 = L.marker(
+                [35.2092388167769, 129.117090476233],
+                {}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+        var popup_4013879c06ae4188a80e6f43ed3ac730 = L.popup({"maxWidth": 200});
+
+        
+            var html_5a88e12562e246d593ed2a6f83a38c88 = $(`<div id="html_5a88e12562e246d593ed2a6f83a38c88" style="width: 100.0%; height: 100.0%;">부산광역시 해운대구 삼어로133번길 50(반여동)</div>`)[0];
+            popup_4013879c06ae4188a80e6f43ed3ac730.setContent(html_5a88e12562e246d593ed2a6f83a38c88);
+        
+
+        marker_4b39a1f5dd184b829a694493d34be616.bindPopup(popup_4013879c06ae4188a80e6f43ed3ac730)
+        ;
+
+        
+    
+    
+            marker_4b39a1f5dd184b829a694493d34be616.bindTooltip(
+                `<div>
+                     류은지
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b3d4cc8fb5441aea251a24fb28e95d0 = L.marker(
+                [35.2007741697571, 129.081222575291],
+                {}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+        var popup_be8acf3e8dd646168ab121e91958251a = L.popup({"maxWidth": 200});
+
+        
+            var html_2902823882ba44e68564da486a891f0c = $(`<div id="html_2902823882ba44e68564da486a891f0c" style="width: 100.0%; height: 100.0%;">부산광역시 동래구 충렬대로202번길 14(수안동, 해바라기아파트)</div>`)[0];
+            popup_be8acf3e8dd646168ab121e91958251a.setContent(html_2902823882ba44e68564da486a891f0c);
+        
+
+        marker_5b3d4cc8fb5441aea251a24fb28e95d0.bindPopup(popup_be8acf3e8dd646168ab121e91958251a)
+        ;
+
+        
+    
+    
+            marker_5b3d4cc8fb5441aea251a24fb28e95d0.bindTooltip(
+                `<div>
+                     김지현
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12c4149f12ba4627b028d8135790de24 = L.marker(
+                [35.194764418105, 129.107600332947],
+                {}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+        var popup_c6fe64608a264269a118613a5c0a45fe = L.popup({"maxWidth": 200});
+
+        
+            var html_105002a4bc384a0db9b2fe56777678d1 = $(`<div id="html_105002a4bc384a0db9b2fe56777678d1" style="width: 100.0%; height: 100.0%;">부산광역시 동래구 연안로 71(안락동, 안락뜨란채1단지아파트)</div>`)[0];
+            popup_c6fe64608a264269a118613a5c0a45fe.setContent(html_105002a4bc384a0db9b2fe56777678d1);
+        
+
+        marker_12c4149f12ba4627b028d8135790de24.bindPopup(popup_c6fe64608a264269a118613a5c0a45fe)
+        ;
+
+        
+    
+    
+            marker_12c4149f12ba4627b028d8135790de24.bindTooltip(
+                `<div>
+                     서지우
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc91ca2c8e3c4c19af5336496bcb5d18 = L.marker(
+                [35.1927417818779, 129.110161293431],
+                {}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+        var popup_e85a65d6c3414ff68f66c73a103bd923 = L.popup({"maxWidth": 200});
+
+        
+            var html_cf9c0b94da4c4a1d8f36aadd8362e1fa = $(`<div id="html_cf9c0b94da4c4a1d8f36aadd8362e1fa" style="width: 100.0%; height: 100.0%;">부산광역시 동래구 연안로 74(안락동, 안락뜨란채2단지아파트)</div>`)[0];
+            popup_e85a65d6c3414ff68f66c73a103bd923.setContent(html_cf9c0b94da4c4a1d8f36aadd8362e1fa);
+        
+
+        marker_cc91ca2c8e3c4c19af5336496bcb5d18.bindPopup(popup_e85a65d6c3414ff68f66c73a103bd923)
+        ;
+
+        
+    
+    
+            marker_cc91ca2c8e3c4c19af5336496bcb5d18.bindTooltip(
+                `<div>
+                     위정현
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aca3fafe5c8a4cc98b97c495684e413d = L.marker(
+                [35.1931222050951, 129.111626113681],
+                {}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+        var popup_991685d4bc1b4fea93e581a2b7544c9f = L.popup({"maxWidth": 200});
+
+        
+            var html_700b708e6b6f4af59a25a06d6d9c978e = $(`<div id="html_700b708e6b6f4af59a25a06d6d9c978e" style="width: 100.0%; height: 100.0%;">부산광역시 동래구 온천천로531번길 49(안락동)</div>`)[0];
+            popup_991685d4bc1b4fea93e581a2b7544c9f.setContent(html_700b708e6b6f4af59a25a06d6d9c978e);
+        
+
+        marker_aca3fafe5c8a4cc98b97c495684e413d.bindPopup(popup_991685d4bc1b4fea93e581a2b7544c9f)
+        ;
+
+        
+    
+    
+            marker_aca3fafe5c8a4cc98b97c495684e413d.bindTooltip(
+                `<div>
+                     김유진
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_683a5a66970b46e19edd2823df19021f = L.marker(
+                [35.1942965382289, 129.090049155964],
+                {}
+            ).addTo(map_c4245633ef214a19acc9dbbbdaad2866);
+        
+    
+        var popup_abd088e02b1e4b069fa4c165038f1bd8 = L.popup({"maxWidth": 200});
+
+        
+            var html_7deb05c27169488da51b2fadfb2e176e = $(`<div id="html_7deb05c27169488da51b2fadfb2e176e" style="width: 100.0%; height: 100.0%;">부산광역시 동래구 수안로8번길 38(수안동, 온천천 경동리인타워2차)</div>`)[0];
+            popup_abd088e02b1e4b069fa4c165038f1bd8.setContent(html_7deb05c27169488da51b2fadfb2e176e);
+        
+
+        marker_683a5a66970b46e19edd2823df19021f.bindPopup(popup_abd088e02b1e4b069fa4c165038f1bd8)
+        ;
+
+        
+    
+    
+            marker_683a5a66970b46e19edd2823df19021f.bindTooltip(
+                `<div>
+                     임채준
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
